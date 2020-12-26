@@ -2,7 +2,7 @@ from cv2 import cv2
 import streamlit as st
 from PIL import Image, ImageEnhance
 import numpy as np 
-import os
+from .cv2 import *
 
 
 def load_image(img):
