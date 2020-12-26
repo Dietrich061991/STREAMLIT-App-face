@@ -3,3 +3,5 @@ image==1.5.33
 numpy==1.19.4
 ImageHash==4.2.0
 opencv-python==4.4.0.46
+freeglut3-dev
+libgtk2.0-dev
