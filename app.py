@@ -156,7 +156,7 @@ def main():
     elif choice =='About':
         st.subheader('Author: Sedami Dietrich Montcho')
         st.subheader('Data science')
-        st.text('Contact : +55 83996049106')
+        st.text('Contact : +5583996049106')
         st.text('Email : didimontcho@gmail.com')
         st.text('Country: Brazil')
         st.success('Never Give Up')
