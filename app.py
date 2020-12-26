@@ -1,8 +1,8 @@
-from cv2 import cv2
+import cv2
 import streamlit as st
 from PIL import Image, ImageEnhance
 import numpy as np 
-from .cv2 import *
+import os
 
 
 def load_image(img):
