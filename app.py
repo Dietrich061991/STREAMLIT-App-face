@@ -9,9 +9,9 @@ def load_image(img):
     imag = Image.OpenCv(img)
     return imag
 
-face_cascade = cv2.CascadeClassifier('free_cognitive/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('free_cognitive/haarcascade_eye.xml')
-smile_cascade = cv2.CascadeClassifier('free_cognitive/haarcascade_smile.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
 
 def detection_faces(our_image):
     new_image = np.array(our_image.convert('RGB'))
